@@ -1,0 +1,9 @@
+!!!
+%html
+  %body
+    - if link
+      %a{href: link} click me
+    #data{data: {data: page_data.to_json}}
+    %script{src: "https://code.jquery.com/jquery-3.1.1.slim.min.js", integrity: "sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=", crossorigin: "anonymous"}
+    %script
+      = "$(function() { $('#data').data('data'); $('#data').text('Hello w#{width} x h#{height} x d#{depth} worlds!') })"
