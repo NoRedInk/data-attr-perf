@@ -26,4 +26,4 @@ w10000xh1xd1.html      	w1000xh1xd1.html       	w100xh10xd10.html      	w10xh100
 w1000xh100xd100.html   	w100xh1000xd100.html   	w100xh1xd1.html		w10xh100xd10.html      	w1xh1000xd1.html
 ```
 
-The largest filesize will be around 61M.
+The largest filesize will be around 600M.
